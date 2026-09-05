@@ -1,0 +1,52 @@
+.game-control-container[data-v-40243fe2] {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 165px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.455) 33%, rgba(0, 0, 0, 0.66) 100%);
+  padding: 29px 24px 32px;
+}
+.game-control-container .game-version[data-v-40243fe2] {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: absolute;
+  right: 16px;
+  bottom: 12px;
+}
+.game-control-container button[data-v-40243fe2] {
+  padding: 18px 24px;
+  min-width: 200px;
+  min-height: 68px;
+  font-size: 24px;
+}
+.game-control-container .button-order-wrapper[data-v-40243fe2] {
+  overflow: hidden;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+}
+.game-control-container .button-order-wrapper .control-btn[data-v-40243fe2]:hover {
+  filter: saturate(150%) brightness(105%);
+}
+.game-control-container .button-order-wrapper.hoverable .control-btn[data-v-40243fe2] {
+  display: block;
+}
+.game-control-container .button-order-wrapper.hoverable .control-btn-hover[data-v-40243fe2] {
+  display: none;
+}
+.game-control-container .button-order-wrapper.hoverable:hover .control-btn[data-v-40243fe2] {
+  display: none;
+}
+.game-control-container .button-order-wrapper.hoverable:hover .control-btn-hover[data-v-40243fe2] {
+  display: block;
+}

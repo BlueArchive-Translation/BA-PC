@@ -1,0 +1,106 @@
+.download-process-container[data-v-ece5fcd4] {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 132px;
+  background-color: #fff;
+  padding: 32px 40px 22px;
+  box-sizing: border-box;
+  color: #000;
+}
+.download-process-container .download-process-head[data-v-ece5fcd4] {
+  color: #313233;
+  font-size: 16px;
+  line-height: 22px;
+}
+.download-process-container .download-process-main[data-v-ece5fcd4] {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.download-process-container .download-process-main .download-process-main-left[data-v-ece5fcd4] {
+  flex: 1;
+}
+.download-process-container .download-process-main .download-process-main-left .download-process-bar[data-v-ece5fcd4] {
+  margin: 12px 0;
+}
+.download-process-container .download-process-main .download-process-main-left .download-process-main-tips[data-v-ece5fcd4] {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #7f7f7f;
+  line-height: 20px;
+}
+.download-process-container .download-process-main .download-process-main-left .download-process-main-tips .download-process-tips-left .tips-span[data-v-ece5fcd4] {
+  display: inline-block;
+  width: 100px;
+}
+.download-process-container .download-process-main .download-action-box[data-v-ece5fcd4] {
+  width: 28px;
+  margin-left: 16px;
+  margin-top: 4px;
+}
+.download-process-container .download-process-main .download-process-action[data-v-ece5fcd4] {
+  flex: none;
+  cursor: pointer;
+}
+.download-process-container .download-process-main .download-process-action[data-v-ece5fcd4] > :not(.hover) {
+  display: block;
+}
+.download-process-container .download-process-main .download-process-action .hover[data-v-ece5fcd4] {
+  display: none;
+}
+.download-process-container .download-process-main .download-process-action[data-v-ece5fcd4]:hover > :not(.hover) {
+  display: none;
+}
+.download-process-container .download-process-main .download-process-action:hover .hover[data-v-ece5fcd4] {
+  display: block;
+}
+.loading[data-v-ece5fcd4] {
+  border-radius: 50%;
+  margin-top: 4px;
+  animation: loading-ece5fcd4 1s step-start infinite;
+  margin-top: 1px;
+}
+@keyframes loading-ece5fcd4 {
+0% {
+    transform: rotate(0deg);
+}
+8.33% {
+    transform: rotate(30deg);
+}
+16.66% {
+    transform: rotate(60deg);
+}
+24.99% {
+    transform: rotate(90deg);
+}
+33.32% {
+    transform: rotate(120deg);
+}
+41.65% {
+    transform: rotate(150deg);
+}
+49.98% {
+    transform: rotate(180deg);
+}
+58.31% {
+    transform: rotate(210deg);
+}
+66.64% {
+    transform: rotate(240deg);
+}
+74.97% {
+    transform: rotate(270deg);
+}
+83.3% {
+    transform: rotate(300deg);
+}
+91.63% {
+    transform: rotate(330deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}

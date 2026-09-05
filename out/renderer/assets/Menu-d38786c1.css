@@ -1,0 +1,106 @@
+.download-menu-container[data-v-fba53772] {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 132px;
+  background-color: #fff;
+  padding: 32px 40px;
+  box-sizing: border-box;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+}
+.download-menu-container .download-menu-left[data-v-fba53772] {
+  flex: 1;
+}
+.download-menu-container .download-menu-left .download-menu-left-head[data-v-fba53772] {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.download-menu-container .download-menu-left .download-menu-left-head .download-menu-left-head-info[data-v-fba53772] {
+  font-size: 14px;
+  line-height: 20px;
+  color: #7f7f7f;
+}
+.download-menu-container .download-menu-left .download-menu-left-head .download-menu-choose-game-path[data-v-fba53772] {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7f7f7f;
+  line-height: 20px;
+  text-align: center;
+  font-style: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.download-menu-container .download-menu-left .download-menu-left-head .download-menu-choose-game-path[data-v-fba53772]:hover {
+  color: #3f3f3f;
+}
+.download-menu-container .download-menu-left .download-menu-left-path[data-v-fba53772] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  background-color: #f7f8fa;
+  border-radius: var(--specify-menu-path-border-radius);
+  padding: 0 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.download-menu-container .download-menu-left .download-menu-left-path .download-menu-left-head-tips[data-v-fba53772] {
+  flex: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #313233;
+  text-align: left;
+  font-style: normal;
+  margin-right: 8px;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+.download-menu-container .download-menu-left .download-menu-left-path .input-container[data-v-fba53772] {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 300px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #7f7f7f;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  font-style: normal;
+  padding-right: 8px;
+}
+.download-menu-container .download-menu-left .download-menu-left-path span[data-v-fba53772] {
+  flex-shrink: 0;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+  color: #313233;
+}
+.download-menu-container .download-menu-operation[data-v-fba53772] {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+}
+.download-menu-container .download-menu-operation .download-menu-operation-download[data-v-fba53772] {
+  height: 100%;
+  min-width: 150px;
+  margin-left: 25px;
+  font-size: 20px;
+  padding: 18px 24px;
+  border-radius: var(--specify-menu-button-border-radius);
+}

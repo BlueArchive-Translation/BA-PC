@@ -1,0 +1,91 @@
+.install-process-container[data-v-adc60ec9] {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 132px;
+  background-color: #fff;
+  padding: 32px 40px 22px;
+  box-sizing: border-box;
+  color: #000;
+}
+.install-process-container .install-process-head[data-v-adc60ec9] {
+  color: #313233;
+  font-size: 16px;
+  line-height: 22px;
+}
+.install-process-container .install-process-main[data-v-adc60ec9] {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.install-process-container .install-process-main .install-process-main-left[data-v-adc60ec9] {
+  flex: 1;
+}
+.install-process-container .install-process-main .install-process-main-left .install-process-bar[data-v-adc60ec9] {
+  margin: 12px 0;
+}
+.install-process-container .install-process-main .install-process-main-left .install-process-main-tips[data-v-adc60ec9] {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #7f7f7f;
+  line-height: 20px;
+}
+.install-process-container .install-process-main .install-process-main-left .install-process-main-tips .download-process-tips-left .tips-span[data-v-adc60ec9] {
+  display: inline-block;
+  width: 100px;
+}
+.install-process-container .install-process-main .install-process-action[data-v-adc60ec9] {
+  flex: none;
+  margin-left: 16px;
+}
+.install-process-container .install-process-main .icon-loading[data-v-adc60ec9] {
+  border-radius: 50%;
+  margin-top: 4px;
+}
+.loading[data-v-adc60ec9] {
+  animation: loading-adc60ec9 1s step-start infinite;
+  margin-top: 1px;
+}
+@keyframes loading-adc60ec9 {
+0% {
+    transform: rotate(0deg);
+}
+8.33% {
+    transform: rotate(30deg);
+}
+16.66% {
+    transform: rotate(60deg);
+}
+24.99% {
+    transform: rotate(90deg);
+}
+33.32% {
+    transform: rotate(120deg);
+}
+41.65% {
+    transform: rotate(150deg);
+}
+49.98% {
+    transform: rotate(180deg);
+}
+58.31% {
+    transform: rotate(210deg);
+}
+66.64% {
+    transform: rotate(240deg);
+}
+74.97% {
+    transform: rotate(270deg);
+}
+83.3% {
+    transform: rotate(300deg);
+}
+91.63% {
+    transform: rotate(330deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
